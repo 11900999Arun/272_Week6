@@ -112,7 +112,7 @@ namespace TigerSoccerClub
                         if (Registration == "Kids" && Jersey == "Yes")
                         {
                             double test = initalamt_kids + jerseyamt;
-                            double test1 = (test * 5) / 100;
+                            double test1 = (test * 10) / 100;
                             total = test - test1;
                             Console.Write("Total price from " + Name + " is: " + total);
                             Console.WriteLine("\n");
@@ -149,6 +149,7 @@ namespace TigerSoccerClub
                             Console.WriteLine("Name    " + " Type   " + " Jersey   " + " Total ");
                             Console.WriteLine(Name + " " + Registration + " "+ " " + " " + Jersey + " " + " " + " " + total);
                             Console.WriteLine("\n");
+                            console.WriteLine("Succes");
 
                     }
 
